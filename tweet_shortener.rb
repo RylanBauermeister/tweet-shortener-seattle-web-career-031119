@@ -43,6 +43,5 @@ end
 def shortened_tweet_truncator(tweet)
   tweet = word_substituter(tweet)
   tweet.slice(0, 140)
-  tweet
 end
 
